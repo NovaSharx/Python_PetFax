@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetFax</title>
+    <h1>Welcome to PetFax</h1>
+    {% for pet in pets %}
+    <a href="/pets/pet/{{pets.index(pet)}}">
+        <h2>{{pet.pet_name}}</h2>
+    </a>
+    <img src="{{pet.pet_photo}}" alt="{{pet.pet_name}}" style="width: auto; height: 800px">
+    {% endfor %}
+    <p>I would like to <a href="/facts/new"><i>submit</i></a> a fact.</p>
+</head>
+
+<body>
+
+</body>
+
+</html>
