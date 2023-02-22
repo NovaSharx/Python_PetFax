@@ -1,0 +1,33 @@
+html {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(46, 39, 102);
+}
+
+body {
+    width: 80%;
+    border-radius: 20px;
+    background-color: skyblue;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+img {
+    border: 5px dotted white;
+    border-radius: 20px;
+    width: auto;
+    height: 500px;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+
+}
